@@ -1,12 +1,10 @@
 # Ordner ignorieren
 build/
 temp/
-/.idea/
 
 # Bestimmte Dateien ignorieren
 *.log
 *.tmp
-*.iml
 
 # Alle `.env`-Dateien ignorieren
 *.env
