@@ -1,0 +1,87 @@
+.sign-up {
+    display: flex;
+    align-items: center;
+    height: 38px;
+    gap: 30px;
+}
+
+.sign-up p {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.sign-up button {
+    height: 38px;
+}
+
+.center-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-card {
+    width: 500px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    border: solid 0 #ffffff;
+}
+
+.login-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.login-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.login-separator {
+    border: solid 1px #29aae0;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.login-area {
+    width: 70%;
+    margin-top: 15px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+.guest-login-button {
+    background-color: #fdfdfd !important;
+    color: #2a3647 !important;
+}
+
+.guest-login-button:hover {
+    background-color: #2a3647 !important;
+    color: #fdfdfd !important;
+}
+
+.sign-up-header {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.arrow-left {
+    position: absolute;
+    left: 0;
+    margin-top: 5px;
+    cursor: pointer;
+}

@@ -2,11 +2,83 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Kanban</title>
+    <title>Join</title>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/buttons.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/color.css">
+    <link rel="stylesheet" href="assets/css/checkbox.css">
     <script src="assets/js/main.js"></script>
 </head>
-<body onload="init()">
-
+<body class="center-card" onload="init()">
+<div id="header"></div>
+<div class="card login-card" id="login">
+    <div class="card-body login-card-body">
+        <h2 class="login-heading"> Log in</h2>
+        <div class="login-separator"></div>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="E-Mail" aria-label="email"
+                   aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <input type="password" class="form-control" placeholder="Password" aria-label="password"
+                   aria-describedby="basic-addon1">
+        </div>
+        <div class="login-area">
+            <div class="remember-me">
+                <input class="form-check-input" type="checkbox" value="" id="remember-me">
+                <label class="form-check-label" for="remember-me">
+                    Remember me
+                </label>
+            </div>
+            <div class="login-btn div-space-between">
+                <button type="button" class="btn btn-primary">Log in</button>
+                <button type="button" class="btn btn-info">Guest Log in</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="card login-card d-none" id="sign-up">
+    <div class="card-body login-card-body">
+        <div class="sign-up-header">
+            <span class="material-symbols-outlined arrow-left" onclick="showLogin()">arrow_back</span>
+            <h2 class="sign-up-heading"> Sign up</h2>
+        </div>
+        <div class="login-separator"></div>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Name" aria-label="name"
+                   aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <input type="email" class="form-control" placeholder="E-Mail" aria-label="email"
+                   aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <input type="password" class="form-control" placeholder="Password" aria-label="password"
+                   aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <input type="password" class="form-control" placeholder="Confirm Password" aria-label="password"
+                   aria-describedby="basic-addon1">
+        </div>
+        <div class="login-area">
+            <div class="remember-me">
+                <input class="form-check-input" type="checkbox" value="" id="check-policy">
+                <label class="form-check-label" for="remember-me">
+                    I accept the <a href="#" class="footer-link">Privacy Policy</a>
+                </label>
+            </div>
+            <div class="login-btn div-center">
+                <button type="button" class="btn btn-primary">Sign up</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer"></div>
+<!--Bootstrap Scripts-->
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
