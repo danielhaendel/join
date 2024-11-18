@@ -8,6 +8,3 @@ temp/
 
 # Alle `.env`-Dateien ignorieren
 *.env
-
-# Eine bestimmte Datei explizit tracken, obwohl der Ordner ignoriert wird
-!not_ignored_folder/specific_file.txt
