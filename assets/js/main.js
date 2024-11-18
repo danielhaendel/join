@@ -1,3 +1,3 @@
 function init() {
-    console.log('Hello World! This is Kanban');
+    console.log('Hello World! This is Join');
 }
