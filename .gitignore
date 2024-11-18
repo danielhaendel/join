@@ -6,6 +6,7 @@ temp/
 # Bestimmte Dateien ignorieren
 *.log
 *.tmp
+*.iml
 
 # Alle `.env`-Dateien ignorieren
 *.env
