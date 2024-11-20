@@ -1,20 +1,10 @@
-function init() {
-    loadHeaderFooter();
+async function init() {
+    await loadHeaderFooter();
 }
 
-function loadHeaderFooter() {
-    fetch('assets/template/desktop_header_menu.html')
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('header').innerHTML = data;
-        })
-        .catch(error => console.error('Error loading header:', error));
-    fetch('assets/template/start_footer.html')
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('footer').innerHTML = data;
-        })
-        .catch(error => console.error('Error loading header:', error));
+async function initMain() {
+    await loadMain();
+    await loadSummary();
 }
 
 function showLogin() {

@@ -1,0 +1,129 @@
+.summary-content {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 50px;
+}
+
+.header-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.header-text h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.header-text p {
+    font-size: 1.2rem;
+    color: #777777;
+    border-left: #29aae0 solid 3px;
+    padding: 10px 25px;
+    margin-left: 20px;
+}
+
+.regards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 30%;
+}
+
+.regards h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #29aae0;
+}
+
+.content-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.summary-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 65%;
+}
+
+.to-dos {
+    display: flex;
+    gap: 20px;
+}
+
+.info-card {
+    padding: 30px 40px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: solid 0 #ffffff;
+    flex-grow: 1;
+}
+
+
+.info-card-body {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-card-body p {
+    text-align: center;
+    font-size: 1rem;
+    color: #444e63;
+}
+
+.dir-col {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-card-body h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.iconRoundStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem; /* Einheitlich Größe */
+    height: 3rem; /* Quadrat für das Icon */
+    border-radius: 1.5em;
+    aspect-ratio: 1;
+    background-color: #2a3646;
+}
+
+.edit-icon {
+    background-image: url("/assets/icon/edit.svg");
+    padding: 14px;
+    background-size: contain; /* Passt die Icon-Größe an den Container an */
+    background-repeat: no-repeat; /* Verhindert Wiederholung des Icons */
+    background-position: center; /* Zentriert das Icon */
+}
+
+.check-icon {
+    background-image: url("/assets/icon/check.svg");
+    padding: 14px;
+    background-size: contain; /* Passt die Icon-Größe an den Container an */
+    background-repeat: no-repeat; /* Verhindert Wiederholung des Icons */
+    background-position: center; /* Zentriert das Icon */
+}
